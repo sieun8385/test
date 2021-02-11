@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="UTF-8" />
+  <link href="src/library.css" rel="stylesheet" />
+  <title>challenge</title>
+ </head>
+ <body>
+  <main>
+    <header class="head">
+       <i class="fas fa-bars"></i>
+       <span> library</span>
+       <i class="fas fa-suitcase"></i>
+    </header>
+    
+      <h3>Book of the day</h3>
+    <section class="main_book">
+    <article class="main_book_imgbox">
+    <img src="https://images-na.ssl-images-amazon.com/images/I/51McwnDOdWL.jpg" />
+    </article>
+
+    <section class="main-book__data">
+        <h4 class="main-book__title"> the Alchemist</h4>
+        <h5 class="main-book__author">Paulo Coelho</h5>
+
+    <article class="icon_star">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star-half-alt"></i>
+    </article>
+
+    <article class="submit"></article>
+        <input type="submit" value="Journey"/>
+        <input type="submit" value="Biography"/>
+    </article>
+
+    <article class="buy_bar">
+        <i class=""></i>
+        <input type="submit" value="Book Now"/>
+    </article>
+   </section>
+  </section>
+
+  <h3>Top Adventures</h3>
+   <ul class="book-list">
+    <li class="book-list">
+      <article class="book_imgbox">
+        <img src="https://2.bp.blogspot.com/-Vx3Pd6mVvp8/VdPGwBZHdaI/AAAAAAAABps/fVtxnUIZJto/s1600/avero.JPG" />
+      </article>
+      <article class="icon_star">
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      </article>
+    </li>
+
+    <li class="book-list">
+        <article class="book_imgbox">
+          <img src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2F20141217_213%2Fvictory4084_1418800275474Tp5RF_JPEG%2F20141205_133633.jpg&type=sc960_832" />
+        </article>
+        <article class="icon_star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+        </article>
+      </li>
+
+      <li class="book-list">
+        <article class="book_imgbox">
+          <img src="data:image/jpeg;base64,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" />
+        </article>
+
+        <article class="icon_star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+        </article>
+      </li>
+
+      <li class="book-list">
+        <article class="book_imgbox">
+          <img src="https://cloudfront.penguin.co.in/wp-content/uploads/2018/10/Hippie_Header-scaled.jpg" />
+        </article>
+        
+        <article class="icon_star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+        </article>
+      </li>
+    </ul>
+
+    <h3>Popular authors</h3>
+    <section class="main-author">
+      <article class="author-imgbox">
+      <img src="https://cdn2.penguin.com.au/authors/original/87518au.jpg" />
+      </article>
+  
+      <article class="main-author__data">
+          <h4 class="main-author__name"> Paulo Coelho</h4>
+          <h5 class="main-author__text">Paulo Coelho is a Brazilian novelist.
+                                        <p>He was loved all over the world</p>
+                                        <p>for writing novels that explored the inside of humans</p>
+                                        <p>and dealt with the essential aspects of life.</p>
+          </h5>
+      </article>
+    </section>
+   </main>
+  </section>
+    <script src="https://kit.fontawesome.com/6478f529f2.js" 
+    crossorigin="anonymous">
+    </script>
+ </body>
+ 

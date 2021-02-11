@@ -1,0 +1,123 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+main {
+    width: 530px;
+}
+.head {
+    padding: 10px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background: coral;
+}
+.head i {
+    position: absolute;
+}
+.head i:first-child {
+    left: 10px;
+}
+.head i:last-child{
+    right: 10px;
+}
+.main_book {
+    display: flex;
+    flex-direction: row;
+}
+.main_book_imgbox{ 
+    margin-left: 15px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border-radius:10%;
+    width:140px;
+    height:175px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+  }
+.main_book_imgbox img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+.icon_star {
+    color: rgb(250, 186, 68);
+}
+h3 {
+    margin-left: 10px;
+}
+h4 {
+    margin-top: 0;
+}
+input[type="submit"] {
+    border-radius:8%;
+    cursor: pointer;
+
+}
+
+ul {
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+}
+li {
+    margin: 10px;
+    list-style: none;
+}
+.book_imgbox {
+    width:110px;
+    height:130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.book_imgbox img {
+    border-radius: 5%;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+.main-author {
+    display: flex;
+    flex-direction: row;
+}
+.author-imgbox {
+    margin-left: 10px;
+    margin-right: 20px;
+    border-radius:50%;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    background: rgba(255, 255, 255, 0.05);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.233);
+  }
+  .author-imgbox img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .main-author__text {
+      margin-right: 10px;
+      opacity: .7;
+  }
