@@ -1,0 +1,16 @@
+.center__panel {
+    height: 1000vh;
+}
+
+
+.hw__1 {
+    width: 100vw;
+    height: 50px;
+    background-color: red;
+    position: fixed;
+}
+
+.hw__2 {
+    background-color: blue;
+    z-index: 100;
+}
